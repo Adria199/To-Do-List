@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { SearchBar } from './components/SearchBar'
 
 import styles from './App.module.css'
+import { Tasks } from './components/Tasks'
 
 function App() {
 
@@ -14,6 +15,9 @@ function App() {
        <section>
          <SearchBar />
        </section>
+       <main>
+          <Tasks />
+       </main>
     </div>
   )
 }
