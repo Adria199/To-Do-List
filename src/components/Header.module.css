@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-700);
+    height: 12.5rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 3rem;
+    color: var(--blue);
+}
+
+.logo p span {
+    color: var(--purple-dark);
+}
