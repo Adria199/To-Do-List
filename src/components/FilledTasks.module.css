@@ -1,0 +1,47 @@
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    width: 52em;
+    height: 3em;
+    font-weight: 700;
+    font-size: 0,875em;
+    line-height: 1,0625em;
+    
+}
+
+.mainHeader span {
+    padding: 0.125em 0.5em;
+    gap: 0.625em;
+    width: 1.5625em;
+    height: 1.1875em;
+    background-color: var(--gray-400);
+    border-radius: 999px;
+}
+
+.created {
+    color: var(--blue);
+    
+}
+
+.concluded {
+    color: var(--purple);
+    margin-left: auto;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 1rem;
+    color: var(--gray-300);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 140%;
+    border-top: 1px solid var(--gray-400);
+}
+
+.mainBody p {
+    text-align: center;
+}

@@ -2,13 +2,19 @@ import styles from './SearchBar.module.css'
 
 import Plus from '../assets/plus.svg'
 
-export function SearchBar() {
+interface searchBar {
+    type: string,
+    placeHolder: string,
+    btnDescription: string
+}
+
+export function SearchBar(props:searchBar) {
     return (
         <div className={styles.searchContainer}>
-            <input className={styles.searchBar} type="text" placeholder='Add a new task'/>
+            <input className={styles.searchBar} type={props.type} placeholder={props.placeHolder}/>
             <button 
                  className={styles.createBtn}>
-                 Create <img src={Plus}/> 
+                 {props.btnDescription} <img src={Plus}/> 
             </button>
         </div>
     )
